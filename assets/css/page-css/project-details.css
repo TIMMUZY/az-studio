@@ -1,0 +1,2990 @@
+.headerCase {
+  margin-top: 20px;
+}
+
+.casePage {
+  position: relative;
+  top: -120px;
+  height: 1300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.case-banner {
+  position: absolute;
+  right: 0;
+  object-fit: cover;
+  height: 1111px;
+  width: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.blockForImg {
+  position: absolute;
+  top: 190px;
+  left: 10%;
+  font-family: 'Manrope';
+}
+
+.wayRoute {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: 'Manrope';
+  color: #ffffff;
+}
+
+.grayWay {
+  color: #ffffff92;
+}
+
+.bannerText {
+  color: #ffffff;
+  margin-left: 5px;
+  margin-top: 100px;
+}
+
+.bannerTextBig {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 73px;
+  max-width: 692px;
+}
+
+.bannerTextLittle {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 445px;
+}
+
+.trafficBlock {
+  position: absolute;
+  top: 767px;
+  left: 70%;
+  font-family: 'Manrope';
+}
+
+.trafficText {
+  position: absolute;
+  top: 14%;
+  left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.trafficPercent {
+  position: absolute;
+  left: 40px;
+  top: 60%;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 122.94px;
+}
+
+.conversationBlock {
+  position: absolute;
+  top: 973px;
+  left: 45%;
+  font-family: 'Manrope';
+}
+
+.conversationText {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.conversationPercent {
+  position: absolute;
+  left: 10%;
+  top: 56%;
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 122.94px;
+}
+
+@media screen and (max-width: 1450px) {
+  .trafficBlock {
+    left: 60%;
+  }
+
+  .conversationBlock {
+    left: 35%;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .trafficBlock {
+    left: 60%;
+  }
+
+  .conversationBlock {
+    left: 30%;
+  }
+
+  .bannerTextBig {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 68px;
+    max-width: 692px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .trafficBlock {
+    left: 55%;
+  }
+
+  .conversationBlock {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .trafficBlock {
+    left: 50%;
+  }
+
+  .conversationBlock {
+    left: 10%;
+  }
+
+  .bannerTextBig {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 60px;
+    max-width: 552px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .trafficBlock {
+    transform: scale(0.8);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    top: 800px;
+  }
+
+  .conversationBlock {
+    transform: scale(0.8);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+    display: inline-block;
+    top: 900px;
+  }
+
+  .case-banner {
+    height: 1000px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .casePage .trafficBlock {
+    transform: scale(0.7);
+  }
+
+  .casePage .conversationBlock {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .case-banner {
+    height: 900px;
+  }
+
+  .trafficBlock {
+    top: 700px;
+  }
+
+  .conversationBlock {
+    top: 800px;
+  }
+
+  .bannerTextBig {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 42px;
+    max-width: 400px;
+  }
+
+  .bannerTextLittle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 330px;
+  }
+
+  .blockForImg {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .trafficBlock {
+    top: 700px;
+  }
+
+  .casePage .trafficBlock {
+    transform: scale(0.6);
+  }
+
+  .casePage .conversationBlock {
+    transform: scale(0.6);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .case-banner {
+    height: 750px;
+  }
+
+  .trafficBlock {
+    top: 600px;
+  }
+
+  .conversationBlock {
+    top: 660px;
+  }
+
+  .casePage .trafficBlock {
+    transform: scale(0.5);
+  }
+
+  .casePage .conversationBlock {
+    transform: scale(0.5);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .casePage {
+    height: 820px;
+  }
+
+  .bannerText {
+    margin-top: 50px;
+  }
+
+  .case-banner {
+    height: 680px;
+  }
+
+  .wayRoute {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .bannerTextBig {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 300px;
+  }
+
+  .bannerTextLittle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    max-width: 280px;
+  }
+
+  .casePage .trafficBlock {
+    transform: scale(0.39);
+  }
+
+  .casePage .conversationBlock {
+    transform: scale(0.39);
+  }
+
+  .trafficBlock {
+    top: 550px;
+  }
+
+  .conversationBlock {
+    top: 600px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .case-banner {
+    height: 750px;
+  }
+
+  .wayRoute {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .bannerTextBig {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    max-width: 250px;
+  }
+
+  .bannerTextLittle {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 14px;
+    max-width: 250px;
+  }
+
+  .casePage .trafficBlock {
+    transform: scale(0.39);
+  }
+
+  .casePage .conversationBlock {
+    transform: scale(0.39);
+  }
+
+  .trafficBlock {
+    top: 600px;
+  }
+
+  .conversationBlock {
+    left: 5%;
+    top: 680px;
+  }
+}
+
+.familyRel {
+  margin-top: 80px;
+  font-family: 'Manrope';
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-bottom: 20px;
+}
+
+.familyFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.year {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.flexBlock {
+  display: flex;
+  justify-content: start;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.flexBlockButton {
+  display: flex;
+  justify-content: start;
+  margin-top: 100px;
+}
+
+.direct {
+  margin-top: 30px;
+  width: 300px;
+}
+
+.expo {
+  color: #2a2a3d;
+}
+
+.prof {
+  margin-top: 10px;
+  color: #acacac;
+}
+
+.sphere {
+  margin-top: 30px;
+}
+
+.contactFamily {
+  font-weight: 400;
+  color: #2a2a3d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 710px;
+}
+
+.capitalText {
+  font-size: 56px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+
+.lendingRel {
+  font-size: 20px;
+  line-height: 27.32px;
+}
+
+.familyRelButton {
+  font-family: 'Manrope';
+  width: 266px;
+  height: 60px;
+  border: none;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  background-color: #f1632b;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1750px) {
+  .contactFamily {
+    width: 520px;
+  }
+
+  .familyRel {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .direct {
+    width: 225px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .familyRel {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .direct {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .year {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 60px;
+  }
+
+  .contactFamily {
+    width: 460px;
+  }
+
+  .capitalText {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .direct {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .sphere {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .lendingRel {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .year {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+  }
+
+  .capitalText {
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 30px;
+  }
+
+  .flexBlock {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .contactFamily {
+    width: 460px;
+  }
+
+  .direct {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .year {
+    font-size: 32px;
+  }
+
+  .capitalText {
+    font-size: 36px;
+  }
+
+  .flexBlock {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .lendingRel {
+    font-size: 14px;
+  }
+
+  .contactFamily {
+    width: 355px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .familyRel {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .familyRelButton {
+    width: 266px;
+    height: 50px;
+  }
+
+  .direct {
+    width: 155px;
+  }
+}
+
+.familyRelSolution {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 850px) {
+  .familyRel {
+    position: relative;
+    bottom: 100px;
+    margin-top: 0px;
+    padding-left: 12%;
+    padding-right: 35%;
+  }
+
+  .familyFlex {
+    display: block;
+  }
+
+  .year {
+    font-size: 48px;
+  }
+
+  .flexBlock {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .flexBlockButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .sphere {
+    width: 140px;
+  }
+
+  .contactFamily {
+    margin-top: 70px;
+  }
+
+  .familyRelButton {
+    width: 266px;
+    height: 50px;
+    margin-top: 70px;
+  }
+
+  .capitalText {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .familyParams {
+    margin-top: 70px;
+  }
+
+  .familyRel {
+    padding-left: 8%;
+    padding-right: 8%;
+    bottom: 300px;
+  }
+  .year {
+    margin-bottom: 50px;
+  }
+
+  .flexBlock {
+    display: block;
+  }
+  .sphere {
+    margin-top: 70px;
+    width: 100%;
+  }
+
+  .sphere .prof {
+    margin-top: 55px;
+  }
+
+  .direct {
+    width: 100%;
+    line-height: 40px;
+  }
+
+  .flexBlockButton {
+    margin-top: 70px;
+    display: block;
+  }
+  .familyRelButton {
+    zoom: 1.5 !important ;
+  }
+
+  .lendingRel {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .capitalText {
+    font-size: 2.5rem !important;
+  }
+
+  .familyRelButton {
+    zoom: 1.2 !important ;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .familyRel {
+    padding-left: 8%;
+    padding-right: 8%;
+    bottom: 100px;
+  }
+
+  .familyRelButton {
+    zoom: 1 !important ;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .capitalText {
+    font-size: 2rem !important;
+  }
+
+  .lendingRel {
+    font-size: 17px !important;
+  }
+}
+
+.relGoal {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2a3d;
+  margin-bottom: 69px;
+  margin-top: 150px;
+}
+
+.relGoalEnd {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2a2a3d;
+}
+
+.relGoalInfo {
+  width: 710px;
+}
+
+@media screen and (max-width: 1750px) {
+  .relGoalInfo {
+    max-width: 520px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .relGoal {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  .relGoalInfo {
+    max-width: 460px;
+  }
+
+  .relGoalEnd {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .relGoal {
+    display: block;
+  }
+
+  .relGoalInfo {
+    max-width: 630px;
+  }
+
+  .relGoalTheme {
+    margin-bottom: 18px;
+  }
+
+  .relGoalEnd {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .relGoalInfo {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .relGoalInfo {
+    max-width: 100%;
+  }
+}
+
+.PosterCase {
+  width: 100vw;
+  text-align: center;
+}
+
+.Post {
+  width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .PosterCase {
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .PosterCase {
+    bottom: 100px;
+  }
+}
+
+.caseResultBlock {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-family: 'Manrope';
+}
+
+.results {
+  font-weight: 400;
+  width: 265px;
+  height: 112px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resultTxt {
+  font-size: 16px;
+  color: #2a2a3d;
+}
+
+.resultInfo {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.resultPercent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.percentFlex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.imgPercent {
+  position: relative;
+  font-family: 'Manrope';
+  width: 331px;
+  color: #2a2a3d;
+}
+
+.textsForPercentBlock {
+  position: absolute;
+  top: 0;
+  margin: 45px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+}
+
+.titlePercent {
+  width: 220px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.percentParag {
+  margin-top: 20px;
+  width: 300px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #a7b5c0;
+}
+
+.percentSize {
+  font-weight: 800;
+  font-size: 65.28px;
+  line-height: 69.95px;
+}
+
+.profPercent {
+  margin-top: 30px;
+}
+
+.buttonPercentBlock {
+  width: 670px;
+}
+
+.descriptionRel {
+  padding: 25px;
+  position: relative;
+  bottom: 320px;
+  margin: auto;
+  width: 100%;
+}
+
+.descriptionText {
+  color: #2a2a3d;
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.lineForPercentBlock {
+  width: 100%;
+  height: 1px;
+  background-color: #c5d3de;
+  margin: 40px auto;
+}
+
+.authordescription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #a7b5c0;
+  text-align: end;
+}
+
+@media screen and (max-width: 1700px) {
+  .caseResultBlock {
+    display: block;
+  }
+
+  .resultPercent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 100%;
+    margin-top: 70px;
+  }
+
+  .profPercent {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .caseResultBlock {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .resultPercent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    margin-top: 70px;
+  }
+
+  .percentFlex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profPercent {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .caseResultBlock {
+    zoom: 0.9;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .caseResultBlock {
+    zoom: 0.8;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .caseResultBlock {
+    zoom: 1;
+  }
+
+  .resultPercent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 0;
+    gap: 30px;
+  }
+
+  .imgPercent {
+    border-radius: 30%;
+    width: 100%;
+    height: 230px;
+    margin-bottom: 70px;
+  }
+
+  .imgPercent img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .percentFlex {
+    display: block;
+  }
+
+  .buttonPercentBlock {
+    border-radius: 30px;
+    width: 100%;
+    height: 350px;
+  }
+
+  .buttonPercentBlock img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+
+  .textsForPercentBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80%;
+    width: 85%;
+    margin: 45px 50px;
+  }
+
+  .profPercent {
+    margin-top: 0px;
+  }
+
+  .results {
+    font-weight: 400;
+    width: 100%;
+    height: 112px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .percentParag {
+    width: 400px;
+  }
+
+  .titlePercent {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .caseResultBlock {
+    zoom: 1;
+    margin-top: 0;
+  }
+
+  .results {
+    font-weight: 400;
+    width: 100%;
+    height: 155px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .buttonPercentBlock {
+    height: 380;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .descriptionRel {
+    padding: 50px;
+    position: relative;
+    bottom: 320px;
+    margin: auto;
+    width: 100%;
+  }
+
+  .percentParag {
+    width: 100%;
+  }
+
+  .imgPercent {
+    height: 250px;
+  }
+
+  .lineForPercentBlock {
+    max-width: 100%;
+    margin: 40px auto 20px;
+  }
+
+  .descriptionText {
+    max-width: 500px;
+    font-size: 18px;
+  }
+
+  .textsForPercentBlock {
+    flex-direction: column;
+  }
+
+  .imgPercent {
+    border-radius: 30%;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 70px;
+  }
+
+  .buttonPercentBlock {
+    background-color: #e9f1f7;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .descriptionRel {
+    padding: 20px 45px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .caseResultBlock {
+    position: relative;
+    bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .textsForPercentBlock {
+    margin: 35px 35px;
+  }
+
+  .descriptionText {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .buttonPercentBlock {
+    height: 380px;
+  }
+
+  .descriptionRel {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .buttonPercentBlock {
+    height: 380px;
+  }
+
+  .descriptionRel {
+    bottom: 350px;
+    padding-top: 50px;
+  }
+
+  .textsForPercentBlock {
+    margin: 35px 35px;
+  }
+
+  .descriptionText {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .buttonPercentBlock {
+    height: 380px;
+  }
+
+  .descriptionRel {
+    bottom: 350px;
+    padding-top: 65px;
+  }
+
+  .textsForPercentBlock {
+    margin: 35px 35px;
+  }
+
+  .descriptionText {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .lineForPercentBlock {
+    margin: 30px auto 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .caseResultBlock {
+    position: relative;
+    bottom: 10px;
+  }
+
+  .buttonPercentBlock {
+    height: 400px;
+  }
+
+  .descriptionText {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .buttonPercentBlock {
+    height: 380px;
+  }
+
+  .descriptionRel {
+    bottom: 350px;
+    padding-top: 70px;
+  }
+
+  .textsForPercentBlock {
+    margin: 35px 35px;
+  }
+
+  .descriptionText {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .lineForPercentBlock {
+    margin: 25px auto 15px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .descriptionRel {
+    bottom: 350px;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .buttonPercentBlock {
+    height: 380px;
+  }
+
+  .descriptionRel {
+    bottom: 350px;
+    padding-top: 85px;
+  }
+
+  .textsForPercentBlock {
+    margin: 35px 35px;
+  }
+
+  .descriptionText {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .lineForPercentBlock {
+    margin: 20px auto 10px;
+  }
+
+  .authordescription {
+    font-size: 14px;
+  }
+}
+
+.colorSchemeRel {
+  width: 100vw;
+  height: 950px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  overflow: hidden;
+  position: relative;
+  bottom: 150px;
+}
+
+.colorSchemeRel img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1450px) {
+  .colorSchemeRel {
+    height: auto;
+    display: block;
+  }
+
+  .colorSchemeRel img:not(:first-child) {
+    height: 110px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .colorSchemeRel {
+    top: 100px;
+  }
+
+  .colorSchemeRel img:not(:first-child) {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .colorSchemeRel {
+    top: 0px;
+  }
+
+  .colorSchemeRel img:not(:first-child) {
+    height: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .colorSchemeRel {
+    top: 100px;
+  }
+
+  .colorSchemeRel img:not(:first-child) {
+    height: 80px;
+  }
+}
+
+.associations {
+  position: relative;
+  bottom: 130px;
+  font-family: 'Manrope';
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+@media screen and (max-width: 1050px) {
+  .associations {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .associations {
+    position: relative;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .associations {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .associations {
+    position: relative;
+    top: 100px;
+  }
+}
+
+.viewBack {
+  position: relative;
+  bottom: 50px;
+  width: 100vw;
+  text-align: center;
+}
+
+.siteViewImg {
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .viewBack {
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .viewBack {
+    position: relative;
+    top: 100px;
+  }
+}
+
+.scrollBlock {
+  width: 100vw;
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.scrollBlock img {
+  flex-shrink: 0;
+  width: 75%;
+  height: 100%;
+  scroll-snap-align: start;
+}
+
+@media screen and (max-width: 1000px) {
+  .scrollBlock {
+    position: relative;
+    top: 120px;
+  }
+
+  .scrollBlock img {
+    flex-shrink: 0;
+    width: 60%;
+    height: 100%;
+    scroll-snap-align: start;
+  }
+}
+
+.objView {
+  width: 100vw;
+  margin-top: 80px;
+}
+
+.objView img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .objView {
+    margin-top: 150px;
+  }
+}
+
+.qualityUse {
+  font-family: 'Manrope';
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+@media screen and (max-width: 1050px) {
+  .qualityUse {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .qualityUse {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .qualityUse {
+    margin-bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .qualityUse {
+    font-family: 'Manrope';
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+.siteEx {
+  width: 100vw;
+  margin-top: 50px;
+}
+
+.siteEx img {
+  width: 100%;
+}
+
+.flexPages {
+  width: 100vw;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.flexPages img {
+  flex: 1 1 calc(50% - 15px);
+  max-width: calc(50% - 15px);
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 850px) {
+  .flexPages {
+    position: relative;
+    bottom: 100px;
+    width: 100vw;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .flexPages {
+    position: relative;
+    bottom: 100px;
+    width: 100vw;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  .flexPages img {
+    flex: 1 1 calc(50% - 8px);
+    max-width: calc(50% - 8px);
+    height: auto;
+    object-fit: cover;
+  }
+}
+.happyCustom {
+  height: 733px;
+  margin-top: 100px;
+  text-align: center;
+  position: relative;
+  font-family: 'Manrope';
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.happyManFon {
+  width: 100%;
+  height: 760px;
+  border-radius: 20px;
+}
+
+.happyMan {
+  position: absolute;
+  top: -65px;
+  left: 0;
+}
+
+.customDiscription {
+  position: absolute;
+  top: 100px;
+  left: 43%;
+  width: 859px;
+  text-align: start;
+}
+
+.quationCustom {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32.76px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.quationDiscription {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 42px;
+  color: #ffffff;
+}
+
+.quationDiscription span {
+  /* font-size: 32px;
+  font-weight: 800;
+  line-height: 42px; */
+  color: #ffffff8a;
+}
+
+@media screen and (max-width: 1650px) {
+  .happyMan {
+    position: absolute;
+    top: -65px;
+    left: -120px;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 100px;
+    left: 38%;
+    width: 859px;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 1650px) {
+  .happyMan {
+    position: absolute;
+    top: -65px;
+    left: -120px;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 100px;
+    left: 42%;
+    width: 759px;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .happyMan {
+    position: absolute;
+    top: -65px;
+    left: -200px;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 100px;
+    left: 38%;
+    width: 720px;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .happyMan {
+    transform: scale(0.95);
+    position: absolute;
+    top: 150px;
+    left: -280px;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 100px;
+    left: 25%;
+    width: 800px;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .happyMan {
+    /*     transform: scale(0.9);
+position: absolute;
+top: 150px;
+left: -340px; */
+    display: none;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 70px;
+    left: 15%;
+    width: 800px;
+    text-align: start;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 666px;
+    border-radius: 20px;
+  }
+
+  .happyCustom {
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .happyMan {
+    transform: scale(0.8);
+    position: absolute;
+    top: 150px;
+    left: -340px;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 70px;
+    left: 12%;
+    width: 800px;
+    text-align: start;
+  }
+
+  .happyCustom {
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 600px;
+  }
+
+  .quationDiscription {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .happyManFon {
+    height: 540px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .happyMan {
+    transform: scale(0.8);
+    position: absolute;
+    top: 150px;
+    left: -360px;
+  }
+
+  .customDiscription {
+    position: absolute;
+    top: 70px;
+    left: 13%;
+    width: 770px;
+    text-align: start;
+  }
+
+  .happyCustom {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .happyMan {
+    transform: scale(0.6);
+    top: 150px;
+    left: -360px;
+  }
+
+  .customDiscription {
+    top: 60px;
+    left: 8%;
+    width: 800px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 550px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .happyMan {
+    transform: scale(0.6);
+    top: 50px;
+    left: -360px;
+  }
+
+  .customDiscription {
+    top: 60px;
+    left: 8%;
+    width: 800px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 520px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .happyMan {
+    transform: scale(0.6);
+    top: 50px;
+    left: -360px;
+  }
+
+  .customDiscription {
+    top: 60px;
+    left: 8%;
+    width: 680px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .happyCustom {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .happyMan {
+    transform: scale(0.6);
+    top: 155px;
+    left: -365px;
+  }
+
+  .customDiscription {
+    top: 40px;
+    left: 8%;
+    width: 650px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .quationCustom {
+    margin-bottom: 15px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .customDiscription {
+    top: 30px;
+    left: 8%;
+    width: 650px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .quationCustom {
+    margin-bottom: 15px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .customDiscription {
+    top: 30px;
+    left: 8%;
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .customDiscription {
+    top: 40px;
+    left: 5%;
+    width: 600px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .quationCustom {
+    margin-bottom: 15px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .customDiscription {
+    top: 30px;
+    left: 5%;
+    width: 550px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .quationCustom {
+    margin-bottom: 15px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .customDiscription {
+    top: 30px;
+    left: 5%;
+    width: 500px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 320px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .quationCustom {
+    margin-bottom: 15px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 535px) {
+  .customDiscription {
+    top: 30px;
+    left: 5%;
+    width: 450px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .quationCustom {
+    margin-bottom: 10px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .customDiscription {
+    top: 25px;
+    left: 5%;
+    width: 400px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .quationCustom {
+    margin-bottom: 10px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .customDiscription {
+    top: 15px;
+    left: 5%;
+    width: 380px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .quationCustom {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .customDiscription {
+    top: 15px;
+    left: 5%;
+    width: 340px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .quationCustom {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .customDiscription {
+    top: 15px;
+    left: 5%;
+    width: 330px;
+  }
+
+  .happyManFon {
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+  }
+
+  .quationDiscription {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .quationCustom {
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+  .happyCustom {
+    height: 450px;
+  }
+}
+
+.orangeBackFon {
+  width: 100%;
+  height: 3000px;
+  background-image: url('../../images/case/orangeRedFon.webp');
+  background-size: 100% 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .orangeBackFon {
+    width: 100%;
+    height: 3000px;
+    background-image: url('../../images/case/orangeRedFon.webp');
+    background-size: 200% 120%;
+  }
+}
+
+.infoDirectorCase {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12%;
+  padding-right: 12%;
+  margin-top: 120px;
+  font-family: 'Manrope';
+}
+
+.imgProgfil {
+  width: 100px;
+  height: 123px;
+}
+
+.profilName {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #282828;
+  margin: 25px 0 5px 0;
+}
+
+.profilJob {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #acacac;
+}
+
+.profilInfoDescription {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #282828;
+  width: 711px;
+}
+
+@media screen and (max-width: 1300px) {
+  .infoDirectorCase {
+    display: block;
+  }
+
+  .profilInfoDescription {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .prifilInfo {
+    display: flex;
+    align-items: center;
+  }
+
+  .imgProgfil {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .infoDirectorCase {
+    position: relative;
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .infoDirectorCase {
+    position: relative;
+    bottom: 120px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .infoDirectorCase {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .infoDirectorCase {
+    margin-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .infoDirectorCase {
+    margin-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.projectAutors {
+  margin-top: 200px;
+  font-family: 'Manrope';
+  display: flex;
+  justify-content: space-between;
+  padding-left: 12%;
+  padding-right: 12%;
+  font-size: 16px;
+}
+
+.projectWork {
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.projectPosition {
+  width: 711px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.projectFlex {
+  width: 130px;
+}
+
+.nameWork {
+  color: #ffffff;
+  font-weight: 800;
+  line-height: 25px;
+  width: 100px;
+}
+
+.professionWork {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #ffffff89;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 1250px) {
+  .projectAutors {
+    display: block;
+    position: relative;
+    bottom: 100px;
+  }
+
+  .projectWork {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 50px;
+  }
+
+  .projectPosition {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20%;
+  }
+
+  .projectFlex {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .projectAutors {
+    display: block;
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .projectAutors {
+    display: block;
+    position: relative;
+    bottom: 250px;
+  }
+
+  .projectFlex {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .projectFlex {
+    font-size: 1.2;
+  }
+}
+@media screen and (max-width: 550px) {
+  .projectAutors {
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+}
+
+.discussBlock {
+  font-family: 'Manrope';
+  height: 999px;
+  background: linear-gradient(to bottom, rgba(248, 0, 0, 0) 0%, #f80000 100%);
+  position: relative;
+}
+
+.discussProject {
+  margin: auto;
+  background-image: url('../../images/case/backDisscus.png') !important;
+  background-repeat: no-repeat;
+  background-size: 95% 80%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.discussProjectTitle {
+  font-size: 152px;
+  font-weight: 800;
+  color: white;
+  position: absolute;
+  left: 517px;
+  top: 192px;
+}
+
+.discussProjectTitle img {
+  position: absolute;
+  top: -192px;
+  left: -517px;
+}
+
+.discussFormPosition {
+  position: absolute;
+  bottom: 0px;
+  left: 517px;
+}
+
+#discussForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+  border: 2px solid #ffffff29;
+  align-items: center;
+  padding: 50px 40px;
+  border-radius: 20px;
+  width: 860px;
+}
+
+.discussFormInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.discussFormInputs input {
+  height: 40px;
+  width: 340px;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid #f5adad;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+  padding-bottom: 10px;
+}
+
+.discussFormInputs input::placeholder {
+  color: white;
+  font-size: 16px;
+}
+
+.discussFormBtn {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+  z-index: 1;
+  text-decoration: underline;
+}
+
+.discussFormBtn Button {
+  background: none;
+  height: fit-content;
+  border: none;
+}
+
+.politicConf {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1420px) {
+  .discussFormPosition {
+    position: absolute;
+    bottom: 0px;
+    left: 317px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .discussFormPosition {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+  }
+
+  .discussProjectTitle {
+    font-size: 152px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 317px;
+    top: 192px;
+  }
+
+  .discussProjectTitle img {
+    position: absolute;
+    top: -192px;
+    left: -517px;
+  }
+
+  .discussProject {
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .discussFormPosition {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+  }
+
+  .discussProjectTitle {
+    font-size: 152px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 217px;
+    top: 192px;
+  }
+
+  .discussProject {
+    top: -200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .discussFormPosition {
+    position: absolute;
+    bottom: 200px;
+    left: 50px;
+  }
+
+  .discussProjectTitle {
+    font-size: 152px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .discussBlock {
+    padding-right: 50px;
+  }
+  .discussFormPosition {
+    width: 90vw;
+    left: 50px;
+    bottom: 250px;
+  }
+
+  .discussProjectTitle {
+    font-size: 152px;
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    left: 100px;
+    top: 0px;
+  }
+
+  .discussProject {
+    height: 80%;
+  }
+
+  #discussForm {
+    display: block;
+    justify-content: space-between;
+    margin-top: 70px;
+    border: 2px solid #ffffff29;
+    align-items: center;
+    padding: 50px 40px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .discussFormInputs input {
+    height: 40px;
+    width: 100%;
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #f5adad;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    padding-bottom: 10px;
+  }
+
+  .discussFormBtn {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    text-decoration: underline;
+  }
+
+  .discussFormBtn button img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .discussProjectTitle {
+    transform: scale(0.8);
+    left: 100px;
+    top: 0px;
+  }
+
+  .discussFormPosition {
+    width: 90vw;
+    left: 35px;
+    bottom: 200px;
+  }
+
+  .discussFormInputs input {
+    height: 80px;
+    width: 100%;
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 1px solid #f5adad;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .discussProject {
+    height: 69%;
+    top: -250px;
+  }
+
+  .discussProjectTitle {
+    transform: scale(0.6);
+    left: 10px;
+    top: 0px;
+  }
+
+  .discussProjectTitle img {
+    position: absolute;
+    top: -192px;
+    left: -517px;
+  }
+
+  .discussFormPosition {
+    width: 90vw;
+    left: 35px;
+    bottom: 280px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .discussProject {
+    height: 55%;
+    top: -300px;
+  }
+
+  .discussProjectTitle {
+    transform: scale(0.5);
+    left: -50px;
+    top: 0px;
+  }
+
+  .discussProjectTitle img {
+    position: absolute;
+    top: -192px;
+    left: -517px;
+  }
+
+  .discussFormPosition {
+    width: 90vw;
+    left: 25px;
+    bottom: 380px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .discussProject {
+    height: 50%;
+    top: -350px;
+  }
+
+  .discussProjectTitle {
+    transform: scale(0.4);
+    left: -100px;
+    top: 0px;
+  }
+
+  .discussProjectTitle img {
+    position: absolute;
+    top: -192px;
+    left: -517px;
+  }
+
+  .discussFormPosition {
+    width: 90vw;
+    left: 25px;
+    bottom: 480px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .discussProject {
+    height: 50%;
+    top: -350px;
+  }
+
+  .discussProjectTitle {
+    transform: scale(0.35);
+    left: -120px;
+    top: 0px;
+  }
+
+  .discussProjectTitle img {
+    position: absolute;
+    top: -192px;
+    left: -517px;
+  }
+}
+
+.sitePresent {
+  font-family: 'Manrope';
+  padding: 13%;
+  background: linear-gradient(to bottom, #f80000 0%, #000000 80%);
+}
+
+
+@media screen and (max-width: 1022px) {
+  .sitePresent {
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sitePresent {
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .sitePresent {
+    bottom: 250px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .sitePresent {
+    bottom: 250px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .sitePresent {
+    bottom: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sitePresent {
+    bottom: 450px;
+  }
+}
+
+.projectCasesBlock {
+  color: #ffffff;
+  background-color: #000000;
+  margin: auto;
+  font-family: 'Manrope';
+}
+
+.moreCases {
+  font-weight: 800;
+  font-size: 152px;
+  line-height: 107px;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .projectCasesBlock {
+    position: relative;
+    bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .moreCases {
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 107px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .projectCasesBlock {
+    position: relative;
+    bottom: 250px;
+  }
+
+  .moreCases {
+    font-weight: 800;
+    font-size: 95px;
+    line-height: 107px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectCasesBlock {
+    position: relative;
+    bottom: 350px;
+  }
+
+  .moreCases {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 107px;
+    margin-bottom: 100px;
+  }
+}
+.footerWrap {
+  font-family: 'Manrope';
+  height: 800px;
+  margin: 0;
+  background-color: #000000 !important;
+  padding-top: 100px;
+}
+
+@media (max-width: 762px) {
+  .familyParams .year {
+    font-size: 4.5rem;
+  }
+
+  .flexBlock {
+    margin-top: 20px;
+  }
+
+  .familyParams .expo {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .familyParams .prof {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    line-height: 30px;
+  }
+
+  .familyRel {
+    margin-top: -70px !important;
+    padding: 0 30px;
+  }
+
+  .flexBlock {
+    justify-content: start;
+    gap: 200px;
+  }
+
+  .flexBlockButton {
+    justify-content: start;
+    gap: 200px;
+  }
+
+  .capitalText {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .contactFamily {
+    width: 100%;
+  }
+
+  .lendingRel {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+
+  .familyRelButton {
+    zoom: 2;
+    margin-top: 40px;
+  }
+
+  .relGoalTheme {
+    line-height: 30px;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .relGoalInfo {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .titlePercent {
+    font-size: 2rem;
+  }
+
+  .percentParag {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .imgPercent {
+    height: auto;
+  }
+
+  .imgPercent img {
+    object-fit: contain;
+    height: auto;
+  }
+
+  .textsForPercentBlock {
+    padding: 40px 20px 0 20px;
+  }
+
+  .titlePercent {
+    font-size: 2.5rem;
+    line-height: 45px;
+  }
+
+  .percentParag {
+    font-size: 1.8rem;
+    line-height: 45px;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 6rem;
+  }
+
+  .buttonPercentBlock .profPercent {
+    object-fit: contain;
+  }
+
+  .buttonPercentBlock {
+    background: none;
+  }
+
+  .caseResultBlock .resultTxt {
+    font-size: 2rem;
+  }
+
+  .caseResultBlock .resultInfo {
+    margin-top: 10px;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .titlePercent {
+    font-size: 2.4rem;
+  }
+
+  .percentParag {
+    font-size: 1.7rem;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .caseResultBlock {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .titlePercent {
+    line-height: 35px;
+    font-size: 2rem;
+  }
+
+  .percentParag {
+    font-size: 1.3rem;
+    line-height: 35px;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 5.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .titlePercent {
+    line-height: 30px;
+    font-size: 1.8rem;
+  }
+
+  .percentParag {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .titlePercent {
+    line-height: 25px;
+    font-size: 1.6rem;
+  }
+
+  .percentParag {
+    font-size: 1rem;
+    line-height: 25px;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .titlePercent {
+    line-height: 20px;
+    font-size: 1.5rem;
+  }
+
+  .percentParag {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 4.2rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .titlePercent {
+    line-height: 20px;
+    font-size: 1.5rem;
+  }
+
+  .percentParag {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .imgPercent .percentSize {
+    font-size: 4.2rem;
+  }
+
+  .textsForPercentBlock {
+    padding: 15px 0 0 0;
+  }
+}

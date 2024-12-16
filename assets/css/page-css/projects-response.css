@@ -1,0 +1,42 @@
+@media (max-width: 1600px) {
+  .discuss-project {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 1400px) {
+  .discuss-project {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 1024px) {
+  .site-category-blocks {
+    flex-direction: column;
+    gap: 65px;
+  }
+
+  .site-category-block-show {
+    width: 100% !important;
+  }
+  .site-category-block-present {
+    width: 100% !important;
+  }
+
+  .site-category-block-bottom {
+    display: block !important;
+  }
+
+  .site-category-block-subtitle {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 762px) {
+  .site-category-block-show,
+  .site-category-block-present {
+    width: 100%;
+  }
+}
